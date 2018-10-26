@@ -1,8 +1,8 @@
 package com.company;
 
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import javax.swing.*;                                          //1.Create JFrame for using Swing Components
+import java.awt.event.ActionEvent;                             //2.Create components JMenuBar(open,save,new)
+import java.awt.event.ActionListener;                          //3.Create Listener for components                           
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
